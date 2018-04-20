@@ -20,7 +20,7 @@ Cinema，支持各大视频网站vip视频解析观看。
 
 QQ交流群：84214636
 
-![](https://github.com/Bruce-7/HDCinema/blob/master/Image/wechat.PNG)![](https://github.com/Bruce-7/HDCinema/blob/master/Image/alipay.PNG)
+![](https://github.com/Bruce-7/HDCinema/blob/master/Image/wechat.png)![](https://github.com/Bruce-7/HDCinema/blob/master/Image/alipay.png)
 
 # 免责声明
 **免责声明: 软件仅供技术交流与学习，侵权请联系删除。禁止用于商业及非法用途，如产生法律纠纷与本人无关。**
