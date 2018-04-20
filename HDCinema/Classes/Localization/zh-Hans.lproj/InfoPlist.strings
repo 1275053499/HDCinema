@@ -1,0 +1,21 @@
+/* 
+  InfoPlist.strings
+  Seven
+
+  Created by HeDong on 16/8/7.
+  Copyright © 2016年 hedong. All rights reserved.
+*/
+
+/*******  AppName *******/
+CFBundleDisplayName = "HD影院";
+
+
+/*******  AppAccess *******/
+NSBluetoothPeripheralUsageDescription   = "用于打开蓝牙";
+NSCalendarsUsageDescription             = "用于打开日历";
+NSCameraUsageDescription                = "用于打开相机";
+NSContactsUsageDescription              = "用于打开通讯录";
+NSLocationAlwaysUsageDescription        = "用于打开地理位置";
+NSLocationWhenInUseUsageDescription     = "用于打开地理位置";
+NSMicrophoneUsageDescription            = "用于打开麦克风";
+NSPhotoLibraryUsageDescription          = "用于打开相册";

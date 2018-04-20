@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28AEAF55201064390238D9A7 /* libPods-HDCinema.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8880608111E740A72A5D98 /* libPods-HDCinema.a */; };
+		670FB81020862862006F4E7E /* HDWebViewBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670FB80F20862862006F4E7E /* HDWebViewBaseViewController.m */; };
+		67CADF13207F8FBA006A7AFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADF12207F8FBA006A7AFA /* AppDelegate.m */; };
+		67CADF3A207F900C006A7AFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67CADF2B207F900C006A7AFA /* InfoPlist.strings */; };
+		67CADFB0207F9C40006A7AFA /* HDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFAB207F9C40006A7AFA /* HDBaseViewController.m */; };
+		67CADFB1207F9C40006A7AFA /* HDMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFAD207F9C40006A7AFA /* HDMainTabBarController.m */; };
+		67CADFB2207F9C40006A7AFA /* HDMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFAF207F9C40006A7AFA /* HDMainNavigationController.m */; };
+		67CADFB6207F9D15006A7AFA /* UIBarButtonItem+HDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFB4207F9D15006A7AFA /* UIBarButtonItem+HDExtension.m */; };
+		67CADFC8207FA256006A7AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67CADFC4207FA256006A7AFA /* Assets.xcassets */; };
+		67CADFC9207FA256006A7AFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFC5207FA256006A7AFA /* main.m */; };
+		67CADFD2208052E8006A7AFA /* HDTencentTVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFD1208052E8006A7AFA /* HDTencentTVViewController.m */; };
+		67CADFD5208052F8006A7AFA /* HDIQiYiTVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFD4208052F8006A7AFA /* HDIQiYiTVViewController.m */; };
+		67CADFD820805303006A7AFA /* HDMangoTVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFD720805303006A7AFA /* HDMangoTVViewController.m */; };
+		67CADFDE20805319006A7AFA /* HDYouKuTVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFDD20805319006A7AFA /* HDYouKuTVViewController.m */; };
+		67CADFE0208053FB006A7AFA /* AnalyticalLines.json in Resources */ = {isa = PBXBuildFile; fileRef = 67CADFDF208053FB006A7AFA /* AnalyticalLines.json */; };
+		67CADFE420806B8D006A7AFA /* HDOptionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFE320806B8D006A7AFA /* HDOptionalViewController.m */; };
+		67CADFE7208086AD006A7AFA /* HDCustomBrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFE6208086AD006A7AFA /* HDCustomBrowseViewController.m */; };
+		67CADFEE2080BC22006A7AFA /* HDTableViewBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFED2080BC22006A7AFA /* HDTableViewBaseController.m */; };
+		67CADFF72080BE0A006A7AFA /* HDTableViewGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFF22080BE0A006A7AFA /* HDTableViewGroupModel.m */; };
+		67CADFF82080BE0A006A7AFA /* HDTableViewBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFF52080BE0A006A7AFA /* HDTableViewBaseModel.m */; };
+		67CADFFF2080BE8B006A7AFA /* HDTableViewBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CADFFD2080BE8B006A7AFA /* HDTableViewBaseCell.m */; };
+		67CAE0032080C0C4006A7AFA /* HDTraceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CAE0022080C0C4006A7AFA /* HDTraceViewController.m */; };
+		67E4CF692080F4EC00330F9B /* HDSupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E4CF682080F4EC00330F9B /* HDSupportViewController.m */; };
+		67E4CF6D208186B500330F9B /* UIView+HDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E4CF6B208186B500330F9B /* UIView+HDExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28D3A6AFFF90E220278D110B /* Pods-HDCinema.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDCinema.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HDCinema/Pods-HDCinema.debug.xcconfig"; sourceTree = "<group>"; };
+		670FB80E20862862006F4E7E /* HDWebViewBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDWebViewBaseViewController.h; sourceTree = "<group>"; };
+		670FB80F20862862006F4E7E /* HDWebViewBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDWebViewBaseViewController.m; sourceTree = "<group>"; };
+		67CADF0E207F8FBA006A7AFA /* HDCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67CADF11207F8FBA006A7AFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67CADF12207F8FBA006A7AFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67CADF2C207F900C006A7AFA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		67CADF32207F900C006A7AFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67CADF36207F900C006A7AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67CADFAA207F9C40006A7AFA /* HDMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMainTabBarController.h; sourceTree = "<group>"; };
+		67CADFAB207F9C40006A7AFA /* HDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseViewController.m; sourceTree = "<group>"; };
+		67CADFAC207F9C40006A7AFA /* HDMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMainNavigationController.h; sourceTree = "<group>"; };
+		67CADFAD207F9C40006A7AFA /* HDMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMainTabBarController.m; sourceTree = "<group>"; };
+		67CADFAE207F9C40006A7AFA /* HDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseViewController.h; sourceTree = "<group>"; };
+		67CADFAF207F9C40006A7AFA /* HDMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMainNavigationController.m; sourceTree = "<group>"; };
+		67CADFB4207F9D15006A7AFA /* UIBarButtonItem+HDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HDExtension.m"; sourceTree = "<group>"; };
+		67CADFB5207F9D15006A7AFA /* UIBarButtonItem+HDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HDExtension.h"; sourceTree = "<group>"; };
+		67CADFBA207F9F07006A7AFA /* HDMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMacro.h; sourceTree = "<group>"; };
+		67CADFC4207FA256006A7AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67CADFC5207FA256006A7AFA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67CADFC6207FA256006A7AFA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		67CADFC7207FA256006A7AFA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67CADFD0208052E8006A7AFA /* HDTencentTVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDTencentTVViewController.h; sourceTree = "<group>"; };
+		67CADFD1208052E8006A7AFA /* HDTencentTVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDTencentTVViewController.m; sourceTree = "<group>"; };
+		67CADFD3208052F8006A7AFA /* HDIQiYiTVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDIQiYiTVViewController.h; sourceTree = "<group>"; };
+		67CADFD4208052F8006A7AFA /* HDIQiYiTVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDIQiYiTVViewController.m; sourceTree = "<group>"; };
+		67CADFD620805303006A7AFA /* HDMangoTVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDMangoTVViewController.h; sourceTree = "<group>"; };
+		67CADFD720805303006A7AFA /* HDMangoTVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDMangoTVViewController.m; sourceTree = "<group>"; };
+		67CADFDC20805319006A7AFA /* HDYouKuTVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDYouKuTVViewController.h; sourceTree = "<group>"; };
+		67CADFDD20805319006A7AFA /* HDYouKuTVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDYouKuTVViewController.m; sourceTree = "<group>"; };
+		67CADFDF208053FB006A7AFA /* AnalyticalLines.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AnalyticalLines.json; sourceTree = "<group>"; };
+		67CADFE220806B8D006A7AFA /* HDOptionalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDOptionalViewController.h; sourceTree = "<group>"; };
+		67CADFE320806B8D006A7AFA /* HDOptionalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDOptionalViewController.m; sourceTree = "<group>"; };
+		67CADFE5208086AD006A7AFA /* HDCustomBrowseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDCustomBrowseViewController.h; sourceTree = "<group>"; };
+		67CADFE6208086AD006A7AFA /* HDCustomBrowseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDCustomBrowseViewController.m; sourceTree = "<group>"; };
+		67CADFEC2080BC22006A7AFA /* HDTableViewBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTableViewBaseController.h; sourceTree = "<group>"; };
+		67CADFED2080BC22006A7AFA /* HDTableViewBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTableViewBaseController.m; sourceTree = "<group>"; };
+		67CADFF12080BE0A006A7AFA /* HDTableViewBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTableViewBaseModel.h; sourceTree = "<group>"; };
+		67CADFF22080BE0A006A7AFA /* HDTableViewGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTableViewGroupModel.m; sourceTree = "<group>"; };
+		67CADFF42080BE0A006A7AFA /* HDTableViewGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTableViewGroupModel.h; sourceTree = "<group>"; };
+		67CADFF52080BE0A006A7AFA /* HDTableViewBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTableViewBaseModel.m; sourceTree = "<group>"; };
+		67CADFFB2080BE8B006A7AFA /* HDTableViewBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTableViewBaseCell.h; sourceTree = "<group>"; };
+		67CADFFD2080BE8B006A7AFA /* HDTableViewBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTableViewBaseCell.m; sourceTree = "<group>"; };
+		67CAE0012080C0C4006A7AFA /* HDTraceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDTraceViewController.h; sourceTree = "<group>"; };
+		67CAE0022080C0C4006A7AFA /* HDTraceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDTraceViewController.m; sourceTree = "<group>"; };
+		67E4CF672080F4EC00330F9B /* HDSupportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDSupportViewController.h; sourceTree = "<group>"; };
+		67E4CF682080F4EC00330F9B /* HDSupportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDSupportViewController.m; sourceTree = "<group>"; };
+		67E4CF6B208186B500330F9B /* UIView+HDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HDExtension.m"; sourceTree = "<group>"; };
+		67E4CF6C208186B500330F9B /* UIView+HDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HDExtension.h"; sourceTree = "<group>"; };
+		9A8880608111E740A72A5D98 /* libPods-HDCinema.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HDCinema.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F35E67147B272BF94BD632 /* Pods-HDCinema.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDCinema.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDCinema/Pods-HDCinema.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67CADF0B207F8FBA006A7AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AEAF55201064390238D9A7 /* libPods-HDCinema.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5867970F3A17C33D52F4F04A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A8880608111E740A72A5D98 /* libPods-HDCinema.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		670FB80D2086283A006F4E7E /* WebViewBaseController */ = {
+			isa = PBXGroup;
+			children = (
+				670FB80E20862862006F4E7E /* HDWebViewBaseViewController.h */,
+				670FB80F20862862006F4E7E /* HDWebViewBaseViewController.m */,
+			);
+			path = WebViewBaseController;
+			sourceTree = "<group>";
+		};
+		67CADF05207F8FBA006A7AFA = {
+			isa = PBXGroup;
+			children = (
+				67CADF10207F8FBA006A7AFA /* HDCinema */,
+				67CADF0F207F8FBA006A7AFA /* Products */,
+				BC1633AFE87B0B2BF7E1C605 /* Pods */,
+				5867970F3A17C33D52F4F04A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67CADF0F207F8FBA006A7AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67CADF0E207F8FBA006A7AFA /* HDCinema.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67CADF10207F8FBA006A7AFA /* HDCinema */ = {
+			isa = PBXGroup;
+			children = (
+				67CADF11207F8FBA006A7AFA /* AppDelegate.h */,
+				67CADF12207F8FBA006A7AFA /* AppDelegate.m */,
+				67CADF27207F9000006A7AFA /* Classes */,
+				67CADFC3207FA256006A7AFA /* Supporting Files */,
+			);
+			path = HDCinema;
+			sourceTree = "<group>";
+		};
+		67CADF27207F9000006A7AFA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFB8207F9E47006A7AFA /* Utils */,
+				67CADF7E207F91B0006A7AFA /* Model */,
+				67CADFA0207F91FC006A7AFA /* View */,
+				67CADFA8207F955D006A7AFA /* Controller */,
+				67CADF3D207F9161006A7AFA /* Category */,
+				67CADF28207F900C006A7AFA /* Localization */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		67CADF28207F900C006A7AFA /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				67CADF2B207F900C006A7AFA /* InfoPlist.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		67CADF3D207F9161006A7AFA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				67E4CF6A208186B500330F9B /* UIView */,
+				67CADFB3207F9D15006A7AFA /* UIBarButtonItem */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		67CADF7E207F91B0006A7AFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFEF2080BE0A006A7AFA /* TableViewCellModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67CADFA0207F91FC006A7AFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFF92080BE8B006A7AFA /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67CADFA8207F955D006A7AFA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				670FB80D2086283A006F4E7E /* WebViewBaseController */,
+				67CAE0002080C0A4006A7AFA /* Trace */,
+				67CADFEB2080BC22006A7AFA /* TableViewBaseController */,
+				67CADFE120806B76006A7AFA /* Optional */,
+				67CADFCE208052BE006A7AFA /* AiQiYiTV */,
+				67CADFCB208052BE006A7AFA /* MangoTV */,
+				67CADFCF208052BE006A7AFA /* TencentTV */,
+				67CADFCD208052BE006A7AFA /* YouKuTV */,
+				67CADFA9207F9C40006A7AFA /* Main */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		67CADFA9207F9C40006A7AFA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFAE207F9C40006A7AFA /* HDBaseViewController.h */,
+				67CADFAB207F9C40006A7AFA /* HDBaseViewController.m */,
+				67CADFAC207F9C40006A7AFA /* HDMainNavigationController.h */,
+				67CADFAF207F9C40006A7AFA /* HDMainNavigationController.m */,
+				67CADFAA207F9C40006A7AFA /* HDMainTabBarController.h */,
+				67CADFAD207F9C40006A7AFA /* HDMainTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		67CADFB3207F9D15006A7AFA /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFB5207F9D15006A7AFA /* UIBarButtonItem+HDExtension.h */,
+				67CADFB4207F9D15006A7AFA /* UIBarButtonItem+HDExtension.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		67CADFB8207F9E47006A7AFA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFB9207F9F07006A7AFA /* Macro */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		67CADFB9207F9F07006A7AFA /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFBA207F9F07006A7AFA /* HDMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		67CADFC3207FA256006A7AFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFDF208053FB006A7AFA /* AnalyticalLines.json */,
+				67CADFC4207FA256006A7AFA /* Assets.xcassets */,
+				67CADFC5207FA256006A7AFA /* main.m */,
+				67CADFC6207FA256006A7AFA /* PrefixHeader.pch */,
+				67CADFC7207FA256006A7AFA /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67CADFCB208052BE006A7AFA /* MangoTV */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFD620805303006A7AFA /* HDMangoTVViewController.h */,
+				67CADFD720805303006A7AFA /* HDMangoTVViewController.m */,
+			);
+			path = MangoTV;
+			sourceTree = "<group>";
+		};
+		67CADFCD208052BE006A7AFA /* YouKuTV */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFDC20805319006A7AFA /* HDYouKuTVViewController.h */,
+				67CADFDD20805319006A7AFA /* HDYouKuTVViewController.m */,
+			);
+			path = YouKuTV;
+			sourceTree = "<group>";
+		};
+		67CADFCE208052BE006A7AFA /* AiQiYiTV */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFD3208052F8006A7AFA /* HDIQiYiTVViewController.h */,
+				67CADFD4208052F8006A7AFA /* HDIQiYiTVViewController.m */,
+			);
+			path = AiQiYiTV;
+			sourceTree = "<group>";
+		};
+		67CADFCF208052BE006A7AFA /* TencentTV */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFD0208052E8006A7AFA /* HDTencentTVViewController.h */,
+				67CADFD1208052E8006A7AFA /* HDTencentTVViewController.m */,
+			);
+			path = TencentTV;
+			sourceTree = "<group>";
+		};
+		67CADFE120806B76006A7AFA /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFE220806B8D006A7AFA /* HDOptionalViewController.h */,
+				67CADFE320806B8D006A7AFA /* HDOptionalViewController.m */,
+				67CADFE5208086AD006A7AFA /* HDCustomBrowseViewController.h */,
+				67CADFE6208086AD006A7AFA /* HDCustomBrowseViewController.m */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		67CADFEB2080BC22006A7AFA /* TableViewBaseController */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFEC2080BC22006A7AFA /* HDTableViewBaseController.h */,
+				67CADFED2080BC22006A7AFA /* HDTableViewBaseController.m */,
+			);
+			path = TableViewBaseController;
+			sourceTree = "<group>";
+		};
+		67CADFEF2080BE0A006A7AFA /* TableViewCellModel */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFF12080BE0A006A7AFA /* HDTableViewBaseModel.h */,
+				67CADFF52080BE0A006A7AFA /* HDTableViewBaseModel.m */,
+				67CADFF42080BE0A006A7AFA /* HDTableViewGroupModel.h */,
+				67CADFF22080BE0A006A7AFA /* HDTableViewGroupModel.m */,
+			);
+			path = TableViewCellModel;
+			sourceTree = "<group>";
+		};
+		67CADFF92080BE8B006A7AFA /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				67CADFFB2080BE8B006A7AFA /* HDTableViewBaseCell.h */,
+				67CADFFD2080BE8B006A7AFA /* HDTableViewBaseCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		67CAE0002080C0A4006A7AFA /* Trace */ = {
+			isa = PBXGroup;
+			children = (
+				67CAE0012080C0C4006A7AFA /* HDTraceViewController.h */,
+				67CAE0022080C0C4006A7AFA /* HDTraceViewController.m */,
+				67E4CF672080F4EC00330F9B /* HDSupportViewController.h */,
+				67E4CF682080F4EC00330F9B /* HDSupportViewController.m */,
+			);
+			path = Trace;
+			sourceTree = "<group>";
+		};
+		67E4CF6A208186B500330F9B /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				67E4CF6C208186B500330F9B /* UIView+HDExtension.h */,
+				67E4CF6B208186B500330F9B /* UIView+HDExtension.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		BC1633AFE87B0B2BF7E1C605 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28D3A6AFFF90E220278D110B /* Pods-HDCinema.debug.xcconfig */,
+				E7F35E67147B272BF94BD632 /* Pods-HDCinema.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67CADF0D207F8FBA006A7AFA /* HDCinema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67CADF24207F8FBB006A7AFA /* Build configuration list for PBXNativeTarget "HDCinema" */;
+			buildPhases = (
+				387142FBB9EB1F455DDF8F8A /* [CP] Check Pods Manifest.lock */,
+				67CADF0A207F8FBA006A7AFA /* Sources */,
+				67CADF0B207F8FBA006A7AFA /* Frameworks */,
+				67CADF0C207F8FBA006A7AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDCinema;
+			productName = HDCinema;
+			productReference = 67CADF0E207F8FBA006A7AFA /* HDCinema.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67CADF06207F8FBA006A7AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = HeDong;
+				TargetAttributes = {
+					67CADF0D207F8FBA006A7AFA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 67CADF09207F8FBA006A7AFA /* Build configuration list for PBXProject "HDCinema" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				ja,
+			);
+			mainGroup = 67CADF05207F8FBA006A7AFA;
+			productRefGroup = 67CADF0F207F8FBA006A7AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67CADF0D207F8FBA006A7AFA /* HDCinema */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67CADF0C207F8FBA006A7AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CADF3A207F900C006A7AFA /* InfoPlist.strings in Resources */,
+				67CADFC8207FA256006A7AFA /* Assets.xcassets in Resources */,
+				67CADFE0208053FB006A7AFA /* AnalyticalLines.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		387142FBB9EB1F455DDF8F8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HDCinema-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67CADF0A207F8FBA006A7AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CADFD820805303006A7AFA /* HDMangoTVViewController.m in Sources */,
+				67CADFF72080BE0A006A7AFA /* HDTableViewGroupModel.m in Sources */,
+				67CADFE7208086AD006A7AFA /* HDCustomBrowseViewController.m in Sources */,
+				67CADFB2207F9C40006A7AFA /* HDMainNavigationController.m in Sources */,
+				67CADFD5208052F8006A7AFA /* HDIQiYiTVViewController.m in Sources */,
+				67CADFFF2080BE8B006A7AFA /* HDTableViewBaseCell.m in Sources */,
+				67CADFE420806B8D006A7AFA /* HDOptionalViewController.m in Sources */,
+				67CADF13207F8FBA006A7AFA /* AppDelegate.m in Sources */,
+				67E4CF6D208186B500330F9B /* UIView+HDExtension.m in Sources */,
+				67CADFB6207F9D15006A7AFA /* UIBarButtonItem+HDExtension.m in Sources */,
+				67CADFD2208052E8006A7AFA /* HDTencentTVViewController.m in Sources */,
+				67E4CF692080F4EC00330F9B /* HDSupportViewController.m in Sources */,
+				67CADFF82080BE0A006A7AFA /* HDTableViewBaseModel.m in Sources */,
+				67CAE0032080C0C4006A7AFA /* HDTraceViewController.m in Sources */,
+				67CADFEE2080BC22006A7AFA /* HDTableViewBaseController.m in Sources */,
+				670FB81020862862006F4E7E /* HDWebViewBaseViewController.m in Sources */,
+				67CADFB0207F9C40006A7AFA /* HDBaseViewController.m in Sources */,
+				67CADFC9207FA256006A7AFA /* main.m in Sources */,
+				67CADFDE20805319006A7AFA /* HDYouKuTVViewController.m in Sources */,
+				67CADFB1207F9C40006A7AFA /* HDMainTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67CADF2B207F900C006A7AFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67CADF2C207F900C006A7AFA /* zh-Hans */,
+				67CADF32207F900C006A7AFA /* en */,
+				67CADF36207F900C006A7AFA /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67CADF22207F8FBB006A7AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67CADF23207F8FBB006A7AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67CADF25207F8FBB006A7AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D3A6AFFF90E220278D110B /* Pods-HDCinema.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "HDCinema/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "HDCinema/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinemahd.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		67CADF26207F8FBB006A7AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F35E67147B272BF94BD632 /* Pods-HDCinema.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "HDCinema/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "HDCinema/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinemahd.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67CADF09207F8FBA006A7AFA /* Build configuration list for PBXProject "HDCinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67CADF22207F8FBB006A7AFA /* Debug */,
+				67CADF23207F8FBB006A7AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67CADF24207F8FBB006A7AFA /* Build configuration list for PBXNativeTarget "HDCinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67CADF25207F8FBB006A7AFA /* Debug */,
+				67CADF26207F8FBB006A7AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67CADF06207F8FBA006A7AFA /* Project object */;
+}

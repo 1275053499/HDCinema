@@ -1,0 +1,21 @@
+/* 
+  InfoPlist.strings
+  Seven
+
+  Created by HeDong on 16/8/7.
+  Copyright © 2016年 hedong. All rights reserved.
+*/
+
+/*******  AppName *******/
+CFBundleDisplayName = "HDCinema";
+
+
+/*******  AppAccess *******/
+NSBluetoothPeripheralUsageDescription   = "Used to open the bluetooth";
+NSCalendarsUsageDescription             = "Used to open the calendar";
+NSCameraUsageDescription                = "Used to open the camera";
+NSContactsUsageDescription              = "Used to open the address book";
+NSLocationAlwaysUsageDescription        = "Used to open the geographic location";
+NSLocationWhenInUseUsageDescription     = "Used to open the geographic location";
+NSMicrophoneUsageDescription            = "Used to open the microphone";
+NSPhotoLibraryUsageDescription          = "Used to open photos";
